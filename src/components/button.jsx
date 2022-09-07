@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class GenerateButton extends Component { 
     render() { 
         return (
-            <button>Generate</button>
+            <button onClick={this.props.onClick}>Generate</button>
         );
     }
 }
